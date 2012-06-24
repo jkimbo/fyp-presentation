@@ -33,27 +33,28 @@ function compile() {
   output += fs.readFileSync(folder + '/header.html', 'utf-8');
 
   // retrieve slides
-  slides = fs.readdirSync(folder + '/slides');
+  slides = fs.readdir(folder + '/slides', function(err, files) {
+    files.sort(function(a, b) {
+      return a < b ? -1 : 1;
+    }).forEach(function(name, key) {
+      if(!(path.extname(name) in oc(types))) return // check if file is in types to compile
 
-  // iterate over slides
-  slides.forEach(function (name) {
-    if(!(path.extname(name) in oc(types))) return // check if file is in types to compile
+      // get pre html
+      output += fs.readFileSync(folder + '/pre.html', 'utf-8');
 
-    // get pre html
-    output += fs.readFileSync(folder + '/pre.html', 'utf-8');
+      var slide = fs.readFileSync(folder + '/slides/' + name, 'utf-8');
+      var compiled = marked(slide);
+      output += compiled;
 
-    var slide = fs.readFileSync(folder + '/slides/' + name, 'utf-8');
-    var compiled = marked(slide);
-    output += compiled;
+      // get post html
+      output += fs.readFileSync(folder + '/post.html', 'utf-8');
+    });
+    // get footer
+    output += fs.readFileSync(folder + '/footer.html', 'utf-8');
 
-    // get post html
-    output += fs.readFileSync(folder + '/post.html', 'utf-8');
+    fs.writeFileSync(folder + '/../index.html', output, 'utf-8');
   });
 
-  // get footer
-  output += fs.readFileSync(folder + '/footer.html', 'utf-8');
-
-  fs.writeFileSync(folder + '/../index.html', output, 'utf-8');
   return output;
 }
 
