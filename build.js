@@ -52,6 +52,7 @@ function compile() {
     // get footer
     output += fs.readFileSync(folder + '/footer.html', 'utf-8');
 
+    // write output to index.html
     fs.writeFileSync(folder + '/../index.html', output, 'utf-8');
   });
 
