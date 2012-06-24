@@ -1,0 +1,9 @@
+{
+    "name": "fyp-presentation"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "watch-tree": ">=0.0"
+      , "marked": ">=0.0"
+  }
+}
