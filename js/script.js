@@ -21,5 +21,5 @@ Reveal.initialize({
   theme: 'default', // default/neon
 
   // Transition style
-  transition: 'default' // default/cube/page/concave/linear(2d)
+  transition: 'linear' // default/cube/page/concave/linear(2d)
 });

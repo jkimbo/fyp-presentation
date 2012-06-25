@@ -32,11 +32,145 @@
 <p>Final Year Project Presentation
 
 </p>
-<p>Jonathan Kim
+<p><img alt="Image here" width="600px" height="200px">
+
 </p>
+<div id="info">
+  <p>Jonathan Kim</p>
+  <p>Dr Tom Clarke</p>
+</div>
 </section>
 <section>
-<h2>Second slide</h2>
+<h2>The Problem</h2>
+<ul>
+<li>There isn&#39;t a way of knowing when your next coach is going to arrive</li>
+<li>Coaches are less reliable than buses of trains</li>
+<li>Delays can be significant</li>
+</ul>
+</section>
+<section>
+<h2>The Solution</h2>
+<p><b>Coach+</b>
+
+</p>
+<ul>
+<li>Tracks coaches in real time and predicts what time they are going to arrive at a stop</li>
+<li>Web client can access this data and show it to the user</li>
+<li>Easy and intuitive interface</li>
+<li>A platform on which to build an ecosytem of applications</li>
+</ul>
+</section>
+<section>
+<section>
+  <h2>The Product</h2>
+  <ul>
+    <li class="fragment">Easy to use</li>
+    <li class="fragment">Extensible</li>
+    <li class="fragment">Modular</li>
+    <li class="fragment">Fully customisable</li>
+  </ul>
+</section>
+<section>
+  <ul>
+    <li>Node.js</li>
+    <li>Websockets</li>
+    <li>HTML5</li>
+  </ul>
+</section>
+<section>
+  <p>Get coaches near a stop</p>
+  <pre>
+    <code>
+      GET /coaches
+    </code>
+  </pre>
+  <p>Parameters:</p>
+  <pre>
+    <code>
+      {
+        stop: [stop id],
+        route: [route id - optional]
+      }
+    </code>
+  </pre>
+  <p>Response:</p>
+  <pre>
+    <code>
+      {
+        coaches: [
+          {
+            id: 101,
+            distance: 1801,
+            duration: 193,
+            location: {
+              lat: 51.49466,
+              lng: -0.19517,
+              timestamp: &quot;1340641857111&quot;
+            },
+            route: {
+              id: 69,
+              points: [
+                ...
+              ]
+            }
+          },
+          {
+            ...
+          }
+        ]
+      }
+    </code>
+  </pre>
+</section>
+<section>
+  <p>Post new coach location</p>
+  <pre>
+    <code>
+      POST /coach/:id
+    </code>
+  </pre>
+  <p>Parameters:</p>
+  <pre>
+    <code>
+      {
+        lat: [latitude],
+        lng: [longitude],
+        timestamp: [timestamp]
+      }
+    </code>
+  </pre>
+  <p>Response:</p>
+  <pre>
+    <code>
+      { 
+        message: Success!
+      }
+    </code>
+  </pre>
+</section>
+</section>
+<section>
+<h1 id="demo">Demo</h1>
+</section>
+<section>
+<h2>Achievements</h2>
+<ul>
+<li>Robust platform</li>
+<li>Intuitive cross-platform web client</li>
+</ul>
+</section>
+<section>
+<h2>The Future</h2>
+<ul>
+<li>Commercial application</li>
+<li>Mobile apps</li>
+</ul>
+</section>
+<section>
+<h2>Conclusion</h2>
+</section>
+<section>
+<h2>References</h2>
 </section>
     </div>
 

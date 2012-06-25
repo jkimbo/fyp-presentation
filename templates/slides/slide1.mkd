@@ -2,4 +2,9 @@
 
 Final Year Project Presentation
 
-Jonathan Kim
+<img alt="Image here" width="600px" height="200px">
+
+<div id="info">
+  <p>Jonathan Kim</p>
+  <p>Dr Tom Clarke</p>
+</div>
