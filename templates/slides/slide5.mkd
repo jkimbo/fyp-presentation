@@ -1,6 +1,6 @@
 <section data-state="gmap">
   <div class="pic_bg" id="gmap">
-    <h2>The Product</h2>
+    <h2>Coach+</h2>
     <ul>
       <li>Easy to use</li>
       <li>Extensible</li>

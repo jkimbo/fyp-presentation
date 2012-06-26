@@ -2,6 +2,7 @@
   <div class="pic_bg" id="old_coach">
     <h2>Background</h2>
       <ul>
+        <li>Over 100 years old</li>
         <li>£1.8 billion 2004/2005</li>
         <li>1.5 billion km 2007/2008</li>
         <li>4 main service providers</li>
