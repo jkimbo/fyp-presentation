@@ -39,8 +39,8 @@ var bgimages = [
  */
 var images = [
   'img/web-client.png',
-  'img/iphone.png',
-  'img/blackberry.png'
+  'img/iphone.jpg',
+  'img/blackberry.jpg'
 ];
 
 // preload images

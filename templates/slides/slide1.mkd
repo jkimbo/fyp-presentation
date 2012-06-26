@@ -1,6 +1,6 @@
 <h2 id="front">Algorithms & Software for Urban Express Coach TOA Estimation</h2>
 
-<img alt="Image here" width="600px" height="200px">
+<img src="img/iphone.jpg" width="600px" class="no_border">
 
 <div id="info">
   <p>Jonathan Kim</p>

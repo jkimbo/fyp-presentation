@@ -2,7 +2,14 @@
   <h1 id="demo">Demo</h1>
 </section>
 <section>
-  <p>Screenshot</p>
+  <img src="img/screen1.png" width="900"/>
 </section>
 <section>
+  <img src="img/screen2.png" width="900"/>
+</section>
+<section>
+  <img src="img/screen3.png" width="900"/>
+</section>
+<section>
+  <img src="img/screen4.png" width="900"/>
 </section>
