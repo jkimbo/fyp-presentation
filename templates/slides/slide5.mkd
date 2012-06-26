@@ -26,8 +26,8 @@
   <ul>
     <li>HTML5</li>
     <li>Web app</li>
+    <li>GeoLocation</li>
     <li>Responsive design</li>
     <li>Intuitive layout</li>
-    <li>GeoLocation</li>
   </ul>
 </section>

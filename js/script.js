@@ -36,8 +36,10 @@ var images = [
 
 // preload images
 
-$.each(images, function(index, image) {
-  $('<img/>')[0].src = image;
+$(function() {
+  $.each(images, function(index, image) {
+    $('<img/>')[0].src = image;
+  });
 });
 
 $('#client').click(function() {

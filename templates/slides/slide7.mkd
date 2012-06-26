@@ -5,6 +5,7 @@
       <li>Robust platform</li>
       <li>Flexible server</li>
       <li>Intuitive cross-platform web client</li>
+      <li>Platform for further development</li>
     </ul>
   </div>
 </section>
