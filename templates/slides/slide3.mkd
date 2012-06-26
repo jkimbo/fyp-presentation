@@ -1,5 +1,5 @@
 <section data-state="time">
-  <div id="time">
+  <div class="pic_bg" id="time">
     <h2>The Problem</h2>
     <ul>
       <li>No way of knowing when your next coach is going to arrive</li>

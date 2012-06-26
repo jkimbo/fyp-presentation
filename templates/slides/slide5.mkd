@@ -1,5 +1,5 @@
 <section data-state="gmap">
-  <div id="gmap">
+  <div class="pic_bg" id="gmap">
     <h2>The Product</h2>
     <ul>
       <li>Easy to use</li>
