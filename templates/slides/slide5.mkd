@@ -1,11 +1,13 @@
 <section data-state="gmap">
-  <h2>The Product</h2>
-  <ul>
-    <li>Easy to use</li>
-    <li>Extensible</li>
-    <li>Modular</li>
-    <li>Fully customisable</li>
-  </ul>
+  <div id="gmap">
+    <h2>The Product</h2>
+    <ul>
+      <li>Easy to use</li>
+      <li>Extensible</li>
+      <li>Modular</li>
+      <li>Fully customisable</li>
+    </ul>
+  </div>
 </section>
 <section>
   <ul>
