@@ -1,5 +1,10 @@
-## Conclusion
-
-* Bridge the gap
-* Modular system
-* Improved user experience
+<section data-state="bus_stop">
+  <div class="pic_bg">
+    <h2>Conclusion</h2>
+    <ul>
+      <li>Bridge the gap</li>
+      <li>Modular system</li>
+      <li>Improved user experience</li>
+    </ul>
+  </div>
+</section>
