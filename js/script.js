@@ -23,3 +23,30 @@ Reveal.initialize({
   // Transition style
   transition: 'linear' // default/cube/page/concave/linear(2d)
 });
+
+/*
+ * Client slideshow
+ */
+
+var images = [
+  'img/web-client.png',
+  'img/iphone.png',
+  'img/blackberry.png'
+];
+
+// preload images
+
+$.each(images, function(index, image) {
+  $('<img/>')[0].src = image;
+});
+
+$('#client').click(function() {
+  var current = $(this).attr('src');
+  var index = images.indexOf(current);
+  if(!images[index + 1]) index = -1;
+  var next = images[index + 1];
+  $(this).fadeOut(150, function() {
+    $(this).attr('src', next);
+    $(this).fadeIn(150);
+  });
+});

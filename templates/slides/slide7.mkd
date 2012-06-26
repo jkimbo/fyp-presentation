@@ -3,6 +3,7 @@
     <h2>Achievements</h2>
     <ul>
       <li>Robust platform</li>
+      <li>Flexible server</li>
       <li>Intuitive cross-platform web client</li>
     </ul>
   </div>

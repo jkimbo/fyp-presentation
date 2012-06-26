@@ -11,19 +11,21 @@
 </section>
 <section>
   <h2>Overview</h2>
-  <p>Overview diagram here!</p>
+  <div>
+    <img class="no_border" src="img/overview.png"/>
+  </div>
   <ul>
-    <li>API</li>
+    <li>HTTP API</li>
     <li>Node.js</li>
-    <li>Websockets</li>
-    <li>HTML5</li>
+    <li>WebSockets</li>
   </ul>
 </section>
 <section>
   <h2>Web Client</h2>
-  <p>Image of web client</p>
+  <img src="img/web-client.png" id="client" width="650"/>
   <ul>
-    <li>Web application</li>
+    <li>HTML5</li>
+    <li>Web app</li>
     <li>Responsive design</li>
     <li>Intuitive layout</li>
     <li>GeoLocation</li>
