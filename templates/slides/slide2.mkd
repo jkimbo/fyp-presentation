@@ -3,9 +3,9 @@
     <h2>Background</h2>
       <ul>
         <li>Over 100 years old</li>
-        <li>Usage stats - number of travellers</li>
-        <li>Examples of growth</li>
+        <li>Vital to 1000's of people</li>
         <li>1.5 billion km 2007/2008</li>
+        <li>Growing</li>
       </ul>
   </div>
 </section>
