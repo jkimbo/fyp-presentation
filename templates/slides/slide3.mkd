@@ -1,4 +1,4 @@
-<section data-state="time">
+<section data-state="stop">
   <div class="pic_bg" id="time">
     <h2>The Problem</h2>
     <ul>

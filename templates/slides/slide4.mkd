@@ -1,7 +1,12 @@
-## The Solution
-
-* Track coaches in real time and predict the time of arrival
-* Real time updates
-* Multiple clients 
-* Easy and intuitive interface
-* A platform on which to build an ecosytem of applications
+<section data-state="green">
+  <div class="pic_bg">
+    <h2>The Solution</h2>
+    <ul>
+      <li>Track coaches in real time and predict the time of arrival</li>
+      <li>Real time updates</li>
+      <li>Multiple clients </li>
+      <li>A platform on which to build an ecosystem of applications</li>
+      <li>Scalable</li>
+    </ul>
+  </div>
+</section>

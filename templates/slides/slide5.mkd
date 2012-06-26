@@ -24,10 +24,8 @@
   <h2>Web Client</h2>
   <img src="img/web-client.png" id="client" width="650"/>
   <ul>
-    <li>HTML5</li>
-    <li>Web app</li>
+    <li>Intuitive layout</li>
     <li>GeoLocation</li>
     <li>Responsive design</li>
-    <li>Intuitive layout</li>
   </ul>
 </section>

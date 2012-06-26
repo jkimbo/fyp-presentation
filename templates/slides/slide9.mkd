@@ -1,2 +1,5 @@
 ## Conclusion
 
+* Bridge the gap
+* Modular system
+* Improved user experience
