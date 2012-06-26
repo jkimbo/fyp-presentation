@@ -25,9 +25,18 @@ Reveal.initialize({
 });
 
 /*
+ * Background images
+ */
+var bgimages = [
+  'img/gmap.png',
+  'http://farm4.staticflickr.com/3543/3459346334_0bb5780600_o.jpg',
+  'img/old_coach.jpg',
+  'img/code.png'
+];
+
+/*
  * Client slideshow
  */
-
 var images = [
   'img/web-client.png',
   'img/iphone.png',
@@ -35,8 +44,11 @@ var images = [
 ];
 
 // preload images
-
 $(function() {
+  $.each(bgimages, function(index, image) {
+    $('<img/>')[0].src = image;
+  });
+
   $.each(images, function(index, image) {
     $('<img/>')[0].src = image;
   });
