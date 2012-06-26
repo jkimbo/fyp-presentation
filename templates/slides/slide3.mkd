@@ -1,8 +1,5 @@
-## The Solution
+## The Problem
 
-<b>Coach+</b>
-
-* Tracks coaches in real time and predicts what time they are going to arrive at a stop
-* Web client can access this data and show it to the user
-* Easy and intuitive interface
-* A platform on which to build an ecosytem of applications
+* There isn't a way of knowing when your next coach is going to arrive
+* Coaches are less reliable than buses of trains
+* Delays can be significant

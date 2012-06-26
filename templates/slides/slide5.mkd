@@ -1,1 +1,87 @@
-<h1 id="demo">Demo</h1>
+<section data-state="gmap">
+  <h2>The Product</h2>
+  <ul>
+    <li>Easy to use</li>
+    <li>Extensible</li>
+    <li>Modular</li>
+    <li>Fully customisable</li>
+  </ul>
+</section>
+<section>
+  <ul>
+    <li>Node.js</li>
+    <li>Websockets</li>
+    <li>HTML5</li>
+  </ul>
+</section>
+<section>
+  <p>Get coaches near a stop</p>
+  <pre>
+    <code>
+      GET /coaches
+    </code>
+  </pre>
+  <p>Parameters:</p>
+  <pre>
+    <code>
+      {
+        stop: [stop id],
+        route: [route id - optional]
+      }
+    </code>
+  </pre>
+  <p>Response:</p>
+  <pre>
+    <code>
+      {
+        coaches: [
+          {
+            id: 101,
+            distance: 1801,
+            duration: 193,
+            location: {
+              lat: 51.49466,
+              lng: -0.19517,
+              timestamp: "1340641857111"
+            },
+            route: {
+              id: 69,
+              points: [
+                ...
+              ]
+            }
+          },
+          {
+            ...
+          }
+        ]
+      }
+    </code>
+  </pre>
+</section>
+<section>
+  <p>Post new coach location</p>
+  <pre>
+    <code>
+      POST /coach/:id
+    </code>
+  </pre>
+  <p>Parameters:</p>
+  <pre>
+    <code>
+      {
+        lat: [latitude],
+        lng: [longitude],
+        timestamp: [timestamp]
+      }
+    </code>
+  </pre>
+  <p>Response:</p>
+  <pre>
+    <code>
+      { 
+        message: Success!
+      }
+    </code>
+  </pre>
+</section>

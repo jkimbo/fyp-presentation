@@ -1,4 +1,4 @@
-## The Future
+## Achievements
 
-* Commercial application
-* Mobile apps
+* Robust platform
+* Intuitive cross-platform web client
