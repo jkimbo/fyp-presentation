@@ -1,8 +1,7 @@
 ## The Solution
 
 * Track coaches in real time and predict the time of arrival
-* Real time
+* Real time updates
 * Multiple clients 
-* Admin interface
 * Easy and intuitive interface
 * A platform on which to build an ecosytem of applications

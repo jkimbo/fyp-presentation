@@ -10,10 +10,23 @@
   </div>
 </section>
 <section>
+  <h2>Overview</h2>
+  <p>Overview diagram here!</p>
   <ul>
+    <li>API</li>
     <li>Node.js</li>
     <li>Websockets</li>
     <li>HTML5</li>
+  </ul>
+</section>
+<section>
+  <h2>Web Client</h2>
+  <p>Image of web client</p>
+  <ul>
+    <li>Web application</li>
+    <li>Responsive design</li>
+    <li>Intuitive layout</li>
+    <li>GeoLocation</li>
   </ul>
 </section>
 <section>

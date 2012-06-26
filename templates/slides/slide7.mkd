@@ -1,4 +1,9 @@
-## Achievements
-
-* Robust platform
-* Intuitive cross-platform web client
+<section data-state="code">
+  <div class="pic_bg">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Robust platform</li>
+      <li>Intuitive cross-platform web client</li>
+    </ul>
+  </div>
+</section>
